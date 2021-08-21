@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.pagination{
+    height: 40px;
+    width: calc(100vw - 400px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches";
+}   
+
+.pagination-button{
+    margin-top: 40px;
+    height: 100%;
+    width: 40px;
+    /* background-color: rgb(228, 227, 227); */
+    background-color: #c0392b;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.pagination-button:hover{
+    /* background-color: rgb(216, 211, 211); */
+    background-color: #222;
+    cursor:pointer;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px 3px rgba(238, 234, 234, 0.16);
+}
+.prev-btn{
+
+}

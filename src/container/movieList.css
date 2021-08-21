@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.movie-container{
+    width: calc(100vw - 200px);
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.movie-search{
+    margin-left: -90px;
+    height: 30px;
+    width: calc(100vw - 600px);
+    margin-bottom: 40px;
+    /* border-radius: 5px; */
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    font-size: 20px;
+    /* box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.16); */
+    color: #fff;
+    font-family: "Staatliches";
+    border: none;
+    /* border: 5px solid black; */
+    background-color: #c0392b;
+}
+.movie-search::placeholder{
+    color: #fff
+}
+.movie-search:focus{
+    outline: none;
+}
+.filter{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rating-dropdown{
+    height: 30px;
+    width: 100px;
+    margin-left: 70px;
+    /* border-radius: 5px; */
+    margin-right: 0px;
+    background-color: #c0392b;
+    color: #fff;
+    font-family: "Staatliches";
+    border: none;
+
+}
+
+.rating-dropdown:focus{
+    outline: none;
+}
+select option:hover{
+    background-color: #222;
+}

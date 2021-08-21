@@ -1,0 +1,6 @@
+.movies-table{
+    width: calc(100vw - 300px);
+    height: calc(100vh - 310px);
+    /* border: 1px solid red; */
+    box-shadow: 0 2px 5px 4px rgba(0, 0, 0, 0.16);
+}
